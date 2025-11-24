@@ -99,13 +99,6 @@ class SpeedA extends Check
             default => 9.0
         };
 
-        // Reward system: reduce VL if well under limit
-        if ($speed <= ($maxSpeed * 0.70)) {
-            $session->reduceViolation($this->getName(), $this->getSubtype(), 0.25);
-            return;
-        }
-
-        // Flag if exceeding threshold
         if ($speed > $maxSpeed) {
             $this->flag($player, "Speed = $speed / $maxSpeed", 1, false);
         } else {
