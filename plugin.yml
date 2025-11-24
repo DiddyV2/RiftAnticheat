@@ -1,0 +1,14 @@
+name: Rift
+description: Rift Anticheat
+version: 1.0.0-Alpha
+authors:
+- "ItsToxicGG"
+- "ImShadowBonnieDev - for base"
+api: 5.0.0
+main: Toxic\Rift
+src-namespace-prefix: Toxic
+
+permissions:
+   rift.bypass:
+     default: op
+     description: "Bypass anticheat checks."
