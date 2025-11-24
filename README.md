@@ -1,2 +1,5 @@
-# RiftAnticheat
-Rift is an public pocketmine anticheat for MC:BE
+# RiftAC
+smth.
+
+## 📄 License
+MIT License. Free to use, modify, and contribute.
